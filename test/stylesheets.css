@@ -1,0 +1,12 @@
+@keyframes moveLight {
+    from {
+        transform: translateX(-4em) skewX(-45deg);
+    }
+    to {
+        transform: translateX(10em) skewX(-45deg);
+    }
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; } 
+    50% { opacity: 0; } 
+  }
